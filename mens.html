@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mens page</title>
+    <style>
+        #container{
+            border: 0px red solid;
+            width: 80%;;
+            height: 500px;
+            margin : auto;
+            margin-top: 40px;
+            display: flex;
+        }
+        #container > div{
+            border: 0px solid red;
+            width: 45%;
+            height: 95%;
+            margin: auto;
+            position: relative;
+
+            
+
+        }
+        #container >:nth-child(1)>img{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0);
+            width: 30%;
+        }
+        #container >:nth-child(2)>img{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0);
+            width: 47%;
+        }
+        .pass{
+            position: absolute;
+            bottom: 20%;
+            
+
+        }
+        p{
+            position: absolute;
+            bottom: 15%;
+            
+        }
+        .rupee{
+            position: absolute;
+            bottom: 5%;
+        }
+    </style>
+
+</head>
+<body>
+    <div id = "container">
+        <div>
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=320&impolicy=hq" alt="">
+            <h1 class = "pass">Pause</h1>
+            <P>Men Cotton Long Sleeves Shrug</P>
+            <p class="rupee"> <b>&#8377;</b> 359 <s>&#8377; 1499</s> <span style="color: green;">-76%</span></p>
+    
+        </div>
+        <div>
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq" alt="">
+            <h1 class="pass">JUBINATION</h1>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <p class="rupee"> <b>&#8377;</b> 799 <s>&#8377; 1499</s> <span style="color: green;">-47%</span></p>
+        </div>
+    
+    </div>
+    
+    
+</body>
+</html>
